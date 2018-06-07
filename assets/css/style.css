@@ -50,27 +50,69 @@ h1 {
 content {
     width: 100%;
     padding: 20px;
+    position: static;
 }
 
 h2{
     position: relative;
-    top: 30px;
-    padding: 20px;
+    top: 40px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    color: #9896a4;
 }
 
-#winterSelfie {
-    transform: rotate(90deg);
-    height: 200px;
+#hotelSonia {
+    transform: rotate(180deg);
+    height: 220px;
     width: auto;
     float: left;
+    margin-right: 20px;
     padding: 20px;
-    top: 50px;
-    position: relative;
 }
 
 #p1 {
     float: left;
-    top: 10px;
-    position: relative;
-    width: 70%;
+    clear: right;
+}
+
+#mrB {
+    height: 200px;
+    width: auto;
+    float: right;
+    padding: 20px;
+}
+
+p {
+    padding: 20px;
+}
+
+#p2 {
+    clear: left;
+}
+
+form {
+    margin-top: 50px;
+}
+
+label {
+    float: left;
+    clear: both;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+input {
+    float: left;
+    clear: both;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+textarea {
+    float: left;
+    clear: both;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 300px;
+    height: 200px;
 }
